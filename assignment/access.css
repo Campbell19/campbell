@@ -1,0 +1,87 @@
+body {
+  background-color: #646466;
+}
+
+.header1 {
+  display: flex;
+  background-color: #f1f1f1;
+  height: 40px;
+}
+
+.ola .olamiddle {
+  display: flex;
+}
+
+.ola .olamiddle li {
+  list-style: none;
+  padding-right: 25px;
+}
+
+.ola .olamiddle li a {
+  text-decoration: none;
+  color: rgb(58, 57, 57);
+  font-size: 14px;
+}
+
+.helpp {
+  color: #ee820a;
+  font-weight: 700;
+}
+
+.header2 {
+  display: flex;
+  background-color: white;
+  height: 50px;
+}
+
+.accessmid {
+  position: relative;
+}
+
+.accessmid .middle {
+  display: flex;
+  position: relative;
+}
+
+.accessmid .middle li {
+  list-style: none;
+  padding-right: 25px;
+}
+
+.accessmid .middle li a {
+  text-decoration: none;
+  color: rgb(58, 57, 57);
+}
+
+.searchy input {
+  position: absolute;
+  right: -280px;
+  top: -16px;
+  padding: 17.5px;
+  border: none;
+  background-color: #f1f1f1;
+  box-shadow: none;
+  outline: none;
+}
+
+.searchy .bi-search {
+  color: black;
+  position: absolute;
+  right: -260px;
+}
+
+.lock {
+  position: absolute;
+  right: -448px;
+  top: -16px;
+  background-color: #EE7E01;
+  width: 150px;
+  padding-right: 15px;
+  padding-left: 5px;
+  color: white;
+  
+}
+
+.lock p{
+    padding-right: 20px;
+}
